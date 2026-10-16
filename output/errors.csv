@@ -1,0 +1,6 @@
+﻿source,row,reason,order_id,date,item,quantity,unit_price
+sales_01.csv,5,missing:item,DEMO-004,2026-10-02,,1,100
+sales_01.csv,6,invalid_date,DEMO-005,2026-02-30,仮想ペン,1,100
+sales_02.csv,2,duplicate_order_item,DEMO-001,2026-10-01,サンプルノート,2,300
+sales_02.csv,4,invalid_quantity,DEMO-007,2026-10-02,仮想ペン,abc,100
+sales_02.csv,5,invalid_unit_price,DEMO-008,2026-10-03,仮想ペン,1,'-5
